@@ -3,6 +3,10 @@
   --black: black;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .section {
   height: 100vh;
 }
@@ -27,12 +31,23 @@
 }
 
 .nav-link:hover {
-  color: #debeb6;
+  color: #9e0e2b;
 }
 
 .nav-link.small {
   color: #debeb6;
   font-size: 20px;
+}
+
+.nav-link.sp {
+  color: #9e0e2b;
+  font-family: Helveticaneueltcom mdex, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.nav-link.sp:hover {
+  color: #222b38;
 }
 
 .menu-button {
@@ -101,11 +116,13 @@
 .button-2 {
   float: right;
   letter-spacing: .5px;
+  -webkit-text-fill-color: inherit;
   background-color: #9e0e2b;
   background-image: url('../images/PLATTER.png');
   background-position: 80%;
   background-repeat: no-repeat;
   background-size: 14px;
+  background-clip: border-box;
   border: 1px solid #fff;
   margin-top: 4px;
   padding: 17px 64px 13px 24px;
@@ -116,7 +133,8 @@
 }
 
 .button-2:hover {
-  background-color: #debeb6;
+  background-color: #9e0e2b;
+  border: 1px solid #9e0e2b;
 }
 
 .div-block-3 {
@@ -277,7 +295,7 @@
 }
 
 .div-block-12 {
-  background-color: #debeb6;
+  background-color: #9e0e2b;
   width: 25px;
   height: 2px;
   margin-left: 14px;
@@ -291,7 +309,7 @@
   text-align: left;
   margin-top: 47px;
   padding-left: 22px;
-  display: none;
+  display: block;
 }
 
 .button-3 {
@@ -307,7 +325,7 @@
 }
 
 .button-3.en {
-  color: #debeb6;
+  color: #9e0e2b;
 }
 
 .div-block-14 {
@@ -339,10 +357,10 @@
 .text-block-7 {
   color: #303030;
   letter-spacing: 1px;
-  margin-left: 8px;
+  margin-left: 0;
   font-family: Helveticaneueltcom ltex, sans-serif;
   font-size: 13px;
-  display: none;
+  display: block;
 }
 
 .background-video-2 {
@@ -451,6 +469,26 @@
 .button-5:hover {
   background-color: #ffe5ea;
   background-image: url('../images/blue-arrow.png');
+}
+
+.button-5.jhj {
+  border-color: #9e0e2b;
+}
+
+.button-5.jhj:hover {
+  color: #fff;
+  background-color: #9e0e2b;
+  border-color: #fff;
+}
+
+.button-5.as {
+  border-color: #9e0e2b;
+}
+
+.button-5.as:hover {
+  color: #fff;
+  background-color: #9e0e2b;
+  border-color: #fff;
 }
 
 .div-block-20 {
@@ -856,6 +894,33 @@
   text-decoration: none;
 }
 
+.div-block-33 {
+  display: flex;
+  position: relative;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+}
+
+.div-block-34 {
+  position: relative;
+}
+
+.text-block-11 {
+  color: #fff;
+  vertical-align: baseline;
+  background-color: #9e0e2b;
+  padding: 6px 20px 6px 16px;
+  font-family: Gotham, sans-serif;
+  display: inline-block;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 200px;
+}
+
 html.w-mod-js [data-ix="new-interaction-2"] {
   opacity: 0;
   transform: translate(0, 75px);
@@ -958,6 +1023,12 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
     font-size: 0;
   }
 
+  .button-2:hover {
+    background-color: #9e0e2b;
+    border-style: solid;
+    border-width: 2px;
+  }
+
   .div-block-3 {
     margin-top: -12px;
   }
@@ -999,6 +1070,7 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
   }
 
   .image-2 {
+    width: 220px;
     margin-top: -121px;
   }
 
@@ -1048,8 +1120,13 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
   }
 
   .heading-3 {
+    margin-top: -32px;
     font-size: 30px;
     line-height: 30px;
+  }
+
+  .div-block-21 {
+    top: -83px;
   }
 
   .slider {
@@ -1084,7 +1161,7 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
   }
 
   .paragraph-2 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
   }
 
@@ -1177,7 +1254,7 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
   }
 
   .div-block-32 {
-    padding-left: 62px;
+    padding-left: 0;
   }
 
   .column-7, .column-8, .column-9 {
@@ -1241,6 +1318,12 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
 #w-node-e47ec22b-1280-684f-c8ba-ca03dfc380c4-8c22b47d {
   align-self: center;
   justify-self: end;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_3ef9e099-4d2d-a2a1-48b1-36ecee0c701d-8c22b47d {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+  }
 }
 
 
