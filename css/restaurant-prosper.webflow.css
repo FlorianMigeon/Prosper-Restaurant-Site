@@ -129,7 +129,7 @@ a {
   font-family: Gotham, sans-serif;
   font-size: 13px;
   font-weight: 500;
-  transition: background-color .4s;
+  transition: none;
 }
 
 .button-2:hover {
@@ -261,7 +261,7 @@ a {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   opacity: 1;
-  background-color: #fdfdfd;
+  background-color: #fff;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -279,7 +279,7 @@ a {
 }
 
 .div-block-11 {
-  background-color: #debeb6;
+  background-color: #9e0e2b;
   width: 50px;
   height: 3px;
   margin-bottom: 33px;
@@ -919,6 +919,12 @@ a {
   bottom: 0%;
   left: auto;
   right: 200px;
+}
+
+.button-7 {
+  float: right;
+  margin-top: 4px;
+  padding: 17px 64px 13px 24px;
 }
 
 html.w-mod-js [data-ix="new-interaction-2"] {
