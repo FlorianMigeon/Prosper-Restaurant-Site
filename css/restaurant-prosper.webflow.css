@@ -11,6 +11,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, .32), rgba(0, 0, 0, .32));
   height: 100vh;
   padding-top: 0;
+  display: block;
 }
 
 .nav-link {
@@ -290,6 +291,7 @@
   text-align: left;
   margin-top: 47px;
   padding-left: 22px;
+  display: none;
 }
 
 .button-3 {
@@ -340,7 +342,7 @@
   margin-left: 8px;
   font-family: Helveticaneueltcom ltex, sans-serif;
   font-size: 13px;
-  display: inline-block;
+  display: none;
 }
 
 .background-video-2 {
@@ -361,7 +363,7 @@
 }
 
 .image {
-  width: 280px;
+  width: 100px;
   margin-top: 0;
   position: relative;
   transform: translate(0, 300px);
