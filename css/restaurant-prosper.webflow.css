@@ -214,7 +214,7 @@ a {
 .text-block-4 {
   letter-spacing: 1px;
   font-family: Helveticaneueltcom ltex, sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   display: inline-block;
 }
 
@@ -222,7 +222,7 @@ a {
   background-color: #fff;
   width: 25px;
   height: 1px;
-  margin-left: 55px;
+  margin-left: 74px;
   margin-right: 17px;
   display: inline-block;
   position: relative;
@@ -233,16 +233,22 @@ a {
   background-image: url('../images/gps-point.png');
   background-position: 14%;
   background-repeat: no-repeat;
-  background-size: 13px;
+  background-size: 20px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .text-block-5 {
+  color: #fff;
   letter-spacing: 1px;
   text-transform: capitalize;
+  background-color: #9e0e2b;
+  border: 1px solid #fff;
   margin-right: 26px;
-  padding-top: 2px;
-  font-family: Helveticaneueltcom ltex, sans-serif;
-  font-size: 12px;
+  padding: 10px 8px 8px;
+  font-family: Helveticaneueltcom mdex, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .nav-menu {
@@ -967,6 +973,20 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
     max-width: 100%;
   }
 
+  .text-block-4 {
+    padding-left: 62px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .div-block-7 {
+    display: none;
+  }
+
+  .div-block-8 {
+    background-size: 12px;
+  }
+
   .nav-menu {
     opacity: 1;
   }
@@ -982,6 +1002,10 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
 
   .div-block-16 {
     margin-right: 18px;
+  }
+
+  .link-2 {
+    font-size: 14px;
   }
 }
 
@@ -1061,9 +1085,16 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
   }
 
   .text-block-5 {
-    margin-right: 7px;
+    text-align: center;
+    margin-left: 35px;
+    margin-right: 35px;
     font-size: 3vw;
-    display: none;
+    display: block;
+    position: absolute;
+    top: auto;
+    bottom: 95%;
+    left: 0%;
+    right: 0%;
   }
 
   .div-block-10 {
@@ -1298,6 +1329,10 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
 
   .slide-5 {
     height: 320px;
+  }
+
+  .link-2 {
+    position: relative;
   }
 }
 
