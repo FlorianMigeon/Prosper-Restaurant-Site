@@ -1,3 +1,155 @@
+@font-face {
+  font-family: Helveticaneueltcom ex;
+  src: url('../fonts/HelveticaNeueLTCom-Ex.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Helveticaneueltcom ltex;
+  src: url('../fonts/HelveticaNeueLTCom-LtEx.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Helveticaneueltcom mdex;
+  src: url('../fonts/HelveticaNeueLTCom-MdEx.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Helveticaneueltcom thex;
+  src: url('../fonts/HelveticaNeueLTCom-ThEx.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Fa 400";
+  src: url('../fonts/fa-regular-400.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Fa brands 400";
+  src: url('../fonts/fa-brands-400.ttf') format("truetype"), url('../fonts/fa-brands-400.ttf') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('../fonts/Gotham-Light.otf') format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Gotham book;
+  src: url('../fonts/Gotham-Book.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('../fonts/Gotham-ExtraLight.otf') format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('../fonts/Gotham-Medium.otf') format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('../fonts/Gotham-ExtraLightItalic.otf') format("opentype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url('../fonts/Gotham-LightItalic.otf') format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Akzidenzgrotesk;
+  src: url('../fonts/AkzidenzGrotesk-BoldExtended.otf') format("opentype"), url('../fonts/AkzidenzGrotesk-BoldCond.otf') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Akzidenzgrotesk;
+  src: url('../fonts/AkzidenzGrotesk-ExtendedItalic.otf') format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Akzidenzgrotesk;
+  src: url('../fonts/AkzidenzGrotesk-LightExtended.otf') format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Akzidenzgrotesk;
+  src: url('../fonts/AkzidenzGrotesk-LightExtendedItalic.otf') format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Akzidenzgrotesk;
+  src: url('../fonts/AkzidenzGrotesk-MediumExtended.otf') format("opentype"), url('../fonts/S.otf') format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: Akzidenzgrotesk;
+  src: url('../fonts/AkzidenzGrotesk-MediumExtendedItalic.otf') format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: S;
+  src: url('../fonts/S.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+
 :root {
   --rouge: #9e0e2b;
   --white: white;
@@ -81,7 +233,7 @@ a {
 
 .navbar {
   background-color: #b3afaf00;
-  margin-top: 52px;
+  margin-top: auto;
   padding-top: 21px;
   padding-bottom: 21px;
   position: fixed;
@@ -768,7 +920,7 @@ a {
   padding-left: 35px;
   padding-right: 0;
   font-family: Helveticaneueltcom mdex, sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 65px;
   position: relative;
 }
@@ -855,6 +1007,10 @@ a {
 
 .link {
   text-decoration: none;
+}
+
+.div-block-30 {
+  display: block;
 }
 
 .slide-5 {
