@@ -1099,6 +1099,50 @@ a {
   font-size: 16px;
 }
 
+.button-9 {
+  color: #9e0e2b;
+  text-transform: capitalize;
+  background-color: #3898ec00;
+  background-image: url('../images/Arrow-pink.png');
+  background-position: 90% 49%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  border: 2px solid #debeb6;
+  margin-top: 21px;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  padding-right: 93px;
+  font-family: Helveticaneueltcom mdex, sans-serif;
+  font-weight: 500;
+  transition: all .3s;
+}
+
+.button-9:hover {
+  background-color: #ffe5ea;
+  background-image: url('../images/blue-arrow.png');
+}
+
+.button-9.jhj {
+  border-color: #9e0e2b;
+  margin-left: 25px;
+}
+
+.button-9.jhj:hover {
+  color: #fff;
+  background-color: #9e0e2b;
+  border-color: #fff;
+}
+
+.button-9.as {
+  border-color: #9e0e2b;
+}
+
+.button-9.as:hover {
+  color: #fff;
+  background-color: #9e0e2b;
+  border-color: #fff;
+}
+
 html.w-mod-js [data-ix="new-interaction-2"] {
   opacity: 0;
   transform: translate(0, 75px);
@@ -1547,6 +1591,15 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
 
   .button-8 {
     font-size: 16px;
+  }
+
+  .button-9 {
+    margin-top: 2px;
+    margin-left: 62px;
+  }
+
+  .button-9.jhj, .button-9.as {
+    margin-left: 0;
   }
 }
 
