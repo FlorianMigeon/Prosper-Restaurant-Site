@@ -233,7 +233,7 @@ a {
 
 .navbar {
   background-color: #b3afaf00;
-  margin-top: auto;
+  margin-top: 50px;
   padding-top: 21px;
   padding-bottom: 21px;
   position: fixed;
@@ -1269,7 +1269,7 @@ html.w-mod-js [data-ix="paragraph-up"], html.w-mod-js [data-ix="paragraph-up-2"]
   }
 
   .navbar {
-    margin-top: auto;
+    margin-top: 115px;
     padding-top: 13px;
     padding-bottom: 36px;
   }
