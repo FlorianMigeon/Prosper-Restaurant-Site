@@ -1143,6 +1143,23 @@ a {
   border-color: #fff;
 }
 
+.utility-page-wrap {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+}
+
+.utility-page-content {
+  text-align: center;
+  flex-direction: column;
+  width: 260px;
+  display: flex;
+}
+
 html.w-mod-js [data-ix="new-interaction-2"] {
   opacity: 0;
   transform: translate(0, 75px);
